@@ -1,0 +1,362 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.li {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+}
+.li:hover {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: orange;
+}
+header {
+  background-image: url("1.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.p1 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 118.08px;
+  letter-spacing: 0.02em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 679px;
+  color: white;
+}
+.p2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28.8px;
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  width: 645px;
+}
+button {
+  width: Fixed (180px) px;
+  height: Hug (52px) px;
+  padding: 16px 80px 16px 80px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid grey;
+}
+button:hover {
+  width: Fixed (180px) px;
+  height: Hug (52px) px;
+  padding: 16px 80px 16px 80px;
+  background-color: orange;
+  border-radius: 10px;
+  border: none;
+  transition: 1s;
+}
+ul {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.div {
+  display: flex;
+  gap: 24px;
+  padding-top: 20px;
+}
+.div1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 28px;
+}
+.div2 {
+  margin-top: 80px;
+}
+.div3 {
+  padding-top: 40px;
+}
+.p3 {
+  color: black;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 78.72px;
+  letter-spacing: 0.05em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+  justify-content: center;
+}
+.div4 {
+  width: 1280px;
+  height: 300px;
+  background-color: black;
+  border-radius: 10px;
+}
+.div4:hover {
+  width: 1280px;
+  height: 300px;
+  background-color: orange;
+  border-radius: 10px;
+  transition: 1s;
+}
+.img {
+  position: absolute;
+  padding-left: 470px;
+  top: 927px;
+}
+.p4 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.2px;
+  letter-spacing: 0.05em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  padding-top: 122px;
+  padding-left: 80px;
+}
+.img1 {
+  position: absolute;
+  top: 1409px;
+}
+.div5 {
+  margin-top: 16px;
+  width: 400px;
+  height: 450px;
+  padding: 80px 0px 0px 0px;
+  border-radius: 10px;
+  background-color: black;
+}
+.div5:hover {
+  width: 400px;
+  height: 450px;
+  padding: 80px 0px 0px 0px;
+  border-radius: 10px;
+  background-color: orange;
+  transition: 1s;
+}
+.p5 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.2px;
+  letter-spacing: 0.05em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-left: 98px;
+  color: white;
+}
+.div6 {
+  width: 400px;
+  height: 216px;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 16px;
+  margin-left: 36px;
+}
+.div6:hover {
+  width: 400px;
+  height: 216px;
+  border-radius: 10px;
+  background-color: orange;
+  transition: 1s;
+}
+
+.img2 {
+  position: absolute;
+  left: 820px;
+  top: 1244px;
+}
+.p6 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.2px;
+  letter-spacing: 0.05em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  padding-left: 24px;
+  padding-top: 29px;
+}
+.div7 {
+  display: flex;
+}
+.p01 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.2px;
+  letter-spacing: 0.05em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  padding-left: 29px;
+  padding-top: 29px;
+}
+.img3 {
+  position: absolute;
+  top: 1339px;
+  left: 1160px;
+}
+.p02 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.2px;
+  letter-spacing: 0.05em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  padding-left: 26px;
+  padding-top: 29px;
+}
+.img4 {
+  position: absolute;
+  top: 1514px;
+  left: 760px;
+}
+.div01 {
+  display: flex;
+}
+.img6 {
+  position: absolute;
+  top: 1480px;
+  left: 1214px;
+}
+.card {
+  width: 400px;
+  height: 462px;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 40px;
+  color: white;
+}
+.card:hover {
+  width: 400px;
+  height: 462px;
+  background-color: orange;
+  border-radius: 10px;
+  margin-left: 40px;
+  color: black;
+  transition: 2s;
+}
+.main-div {
+}
+.section1 {
+  padding-top: 109px;
+}
+.p03 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-left: 27px;
+  padding-top: 50px;
+  width: 315px;
+}
+.p04 {
+  padding-left: 24px;
+  padding-top: 24px;
+}
+.second-div {
+  display: flex;
+  margin-top: 40px;
+}
+main {
+  background-color: grey;
+}
+.sect {
+  background-color: #f57520;
+  margin-top: 120px;
+}
+.p05 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 49.2px;
+  letter-spacing: 0.05em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 620px;
+  color: white;
+  padding-top: 52px;
+  margin-left: 90px;
+}
+
+.input {
+  width: Fixed (302px) px;
+  height: Hug (46px) px;
+  padding: 10px 16px 10px 16px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-top: 16px;
+}
+.div02 {
+  display: flex;
+}
+.div03 {
+  display: flex;
+  justify-content: space-between;
+}
+.inpu {
+  width: Fixed (608px) px;
+  height: Fixed (154px) px;
+  padding: 10px 16px 10px 16px;
+  border-radius: 10px;
+  border: none;
+}
+iframe {
+  height: 50vh;
+}
+footer {
+  background-color: black;
+}
+.div04 {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38.4px;
+  letter-spacing: 0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.div05 {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.div06 {
+  padding-top: 91px;
+}
+textarea {
+  width:  479px;
+  height:  154px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
